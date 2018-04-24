@@ -14,11 +14,12 @@ public:
 
 	void add(string word, string definition);
 
+	void findWord(string word);
 
 private:
 	void deleteMap();
 
-	int getKey(string word);
+	int hash(string word);
 
 	void rebuilding();
 

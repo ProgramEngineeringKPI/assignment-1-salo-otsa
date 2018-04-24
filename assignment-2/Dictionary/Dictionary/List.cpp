@@ -33,15 +33,17 @@ void List::shift() {
 	}
 };
 
-void List::findWord(string word) {
+bool List::findElementInList(string word) {
 	Node* temp = listHead;
-	while(temp && temp->word != word)
+	while(temp->next && temp->word != word)
 		temp = temp->next;
 
-	if (temp->word == word)
+	if (temp->word == word) {
 		cout << temp->word << ": " << temp->definition << endl;
-	else
+		return true;
+	} else {
 		cout << "No such word" << endl;
-
+		return false;
+	}
 	delete temp;
 };

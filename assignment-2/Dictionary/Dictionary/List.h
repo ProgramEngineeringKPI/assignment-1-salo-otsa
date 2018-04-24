@@ -17,7 +17,7 @@ public:
 
 	void shift();
 
-	void findWord(string word);
+	bool findElementInList(string word);
 
 	struct Node {
 		Node(string newWord, string newDefinition) {
