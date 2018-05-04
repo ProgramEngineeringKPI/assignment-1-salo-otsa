@@ -1,5 +1,0 @@
-﻿  premier-league.cpp
-c:\users\wasd1\desktop\premier-league\premier-league\premier-league.cpp(52): warning C4101: 'guest': unreferenced local variable
-c:\users\wasd1\desktop\premier-league\premier-league\premier-league.cpp(52): warning C4101: 'home': unreferenced local variable
-c:\users\wasd1\desktop\premier-league\premier-league\premier-league.cpp(119): warning C4018: '<': signed/unsigned mismatch
-  premier-league.vcxproj -> C:\Users\wasd1\Desktop\premier-league\Debug\premier-league.exe

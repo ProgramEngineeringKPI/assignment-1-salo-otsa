@@ -1,0 +1,4 @@
+﻿  hashTable.cpp
+c:\users\wasd1\desktop\dictionary\dictionary\dictionary\hashtable.cpp(21): warning C4018: '<': signed/unsigned mismatch
+c:\users\wasd1\desktop\dictionary\dictionary\dictionary\hashtable.cpp(67): warning C4018: '<': signed/unsigned mismatch
+  Dictionary.vcxproj -> C:\Users\wasd1\Desktop\dictionary\Dictionary\Debug\Dictionary.exe
